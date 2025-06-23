@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skirtpants - Rok Celana Premium untuk Wanita Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B5FBF',
+                        secondary: '#FF6B9D',
+                        accent: '#FFD166',
+                        dark: '#2E2E2E',
+                        light: '#F8F9FA'
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 3s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #8B5FBF 0%, #FF6B9D 100%);
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 30px rgba(139, 95, 191, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(139, 95, 191, 0.3);
+        }
+        
+        .benefit-icon {
+            background: linear-gradient(135deg, #8B5FBF 0%, #FF6B9D 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .floating-cta {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .countdown-number {
+            min-width: 2.5rem;
+        }
+        
+        @media (max-width: 640px) {
+            .mobile-stack {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body class="bg-light text-dark">
+    <!-- Sticky Price Banner -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50 py-3 px-4 border-t-2 border-primary">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-2 md:mb-0">
+                <div class="text-center mr-4">
+                    <p class="text-sm text-gray-600">Harga Normal</p>
+                    <p class="text-lg font-bold line-through text-gray-500">Rp 253.500</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-sm text-gray-600">Harga Promo</p>
+                    <p class="text-2xl font-bold text-primary">Rp 169.000</p>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-4 hidden md:block">
+                    <p class="text-sm font-medium">Promo berakhir dalam:</p>
+                    <div class="flex space-x-1" id="countdown">
+                        <div class="bg-primary text-white rounded px-2 py-1 text-center countdown-number">
+                            <span id="hours">00</span>
+                        </div>
+                        <span class="text-primary">:</span>
+                        <div class="bg-primary text-white rounded px-2 py-1 text-center countdown-number">
+                            <span id="minutes">00</span>
+                        </div>
+                        <span class="text-primary">:</span>
+                        <div class="bg-primary text-white rounded px-2 py-1 text-center countdown-number">
+                            <span id="seconds">00</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://tara.orderonline.id/skirtpants" class="bg-secondary hover:bg-primary text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                    BELI SEKARANG <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-16 pb-20 md:pb-32">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4">
+                        🔥 WAJIB PUNYA! Rok Celana Super Nyaman & Stylish!
+                    </h1>
+                    <p class="text-xl mb-8">
+                        Tampil modis TANPA was-was! Rok celana ini punya desain 2in1 luarannya rok, DALAMNYA CELANA!
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="https://tara.orderonline.id/skirtpants" class="bg-white text-primary hover:bg-accent hover:text-white font-bold py-4 px-8 rounded-full text-center shadow-lg transition-all duration-300 transform hover:scale-105">
+                            PESAN SEKARANG <i class="fas fa-shopping-bag ml-2"></i>
+                        </a>
+                        <a href="#testimonials" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold py-4 px-8 rounded-full text-center transition-all duration-300">
+                            TESTIMONI <i class="fas fa-chevron-down ml-2"></i>
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center">
+                        <div class="flex -space-x-2">
+                            <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
+                        </div>
+                        <div class="ml-4">
+                            <p class="font-medium">+<span id="happy-customers">0</span> wanita Indonesia sudah membeli!</p>
+                            <div class="flex items-center">
+                                <div class="flex text-yellow-300">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="ml-2">5.0 (1.234 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div class="relative">
+                        <img src="https://img.joomcdn.net/28e01ab5d9d94a2eb341f1c8ae054e8439a70d89_original.jpeg" alt="Skirtpants" class="rounded-lg shadow-2xl w-full max-w-md mx-auto floating-cta">
+                        <div class="absolute -bottom-6 -right-6 bg-white text-primary p-4 rounded-full shadow-xl animate-pulse-slow">
+                            <div class="text-center">
+                                <p class="text-sm font-bold">HARI INI</p>
+                                <p class="text-xl font-bold">Rp 169rb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-primary">Tampil Stylish dengan Skirtpants</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/8138b7fdf0cacf7d2b7546ba6b4f1ab6e7e72ad2_original.jpeg" alt="Skirtpants 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/98d26845e21099a52bcc8d4f75c3e077d73c048e_original.jpeg" alt="Skirtpants 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/25700dd657d08e28265b9bdde2ea048dacd0986b_original.jpeg" alt="Skirtpants 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/75dd22ec3295cb2dc79d258ee578f054968f485f_original.jpeg" alt="Skirtpants 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/913b04d99de2ffc7e67432f03c722ad8b589e987_original.jpeg" alt="Skirtpants 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://img.joomcdn.net/868418897471788e14bf90e400c11b9f587fd7cd_original.jpeg" alt="Skirtpants 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/45/605/L_g0193360545.jpg" alt="Skirtpants 7" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-primary flex items-center justify-center">
+                    <div class="text-center p-6 text-white">
+                        <i class="fas fa-images text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Lihat Lebih Banyak</h3>
+                        <p>Di Instagram @skirtpants_id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-primary">Kenapa Harus Skirtpants?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <div class="text-5xl mb-4 benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Nyaman Sepanjang Hari</h3>
+                    <p class="text-gray-600">Bahan premium yang adem dan menyerap keringat, membuat Anda nyaman beraktivitas tanpa khawatir gerah.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <div class="text-5xl mb-4 benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Praktis & Aman</h3>
+                    <p class="text-gray-600">Desain 2in1 yang stylish dengan rok di luar dan celana dalam, memberikan perlindungan ekstra tanpa khawatir terbuka.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <div class="text-5xl mb-4 benefit-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Multifungsi</h3>
+                    <p class="text-gray-600">Cocok untuk berbagai aktivitas: olahraga, jalan-jalan, belanja, atau bahkan acara santai dengan keluarga.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <div class="text-5xl mb-4 benefit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Tampil Stylish</h3>
+                    <p class="text-gray-600">Desain kekinian ala Korea yang membuat penampilan Anda semakin modis dan percaya diri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Wear Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-primary">Cocok untuk Berbagai Aktivitas</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="https://img.joomcdn.net/28e01ab5d9d94a2eb341f1c8ae054e8439a70d89_original.jpeg" alt="Wearing Skirtpants" class="rounded-lg shadow-lg w-full max-w-md mx-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="mb-8">
+                        <div class="flex items-start mb-4">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+                                <span>1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Olahraga</h3>
+                                <p class="text-gray-600">Sempurna untuk jogging, senam, zumba, atau bersepeda dengan nyaman dan stylish.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mb-4">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+                                <span>2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Aktivitas Sehari-hari</h3>
+                                <p class="text-gray-600">Nyaman dipakai untuk belanja, jalan-jalan, atau meeting santai dengan teman.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+                                <span>3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Traveling</h3>
+                                <p class="text-gray-600">Pilihan tepat untuk liburan atau perjalanan jauh karena praktis dan nyaman.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://tara.orderonline.id/skirtpants" class="inline-block bg-secondary hover:bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                        DAPATKAN SEKARANG <i class="fas fa-shopping-bag ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-primary">Apa Kata Mereka?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Dewi" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Dewi S.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Awalnya ragu, tapi setelah pakai langsung jatuh cinta! Nyaman banget buat senam pagi, nggak gerah dan gerakan bebas. Desainnya juga kece!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Rina" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Rina M.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Bahan premium banget! Udah beli 3 warna karena emang worth it. Sekarang koleksi skirt olahraga lain udah nggak kepake lagi."</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Siti" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Siti N.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Sebagai ibu rumah tangga, skirtpants ini jadi solusi praktis. Bisa dipakai masak, antar anak sekolah, sampai jalan-jalan ke mall tetap stylish."</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Linda" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Linda W.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Pengiriman cepat dan packing rapi. Skirtpantsnya lebih bagus dari foto, bahannya lembut dan nggak nerawang. Pokoknya recommended banget!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 hero-gradient text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Jangan Lewatkan Kesempatan Ini!</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Dapatkan Skirtpants premium dengan harga spesial hari ini saja. Stok terbatas!</p>
+            
+            <div class="bg-white text-primary rounded-lg p-6 inline-block mb-8">
+                <div class="flex items-center justify-center space-x-4 mobile-stack">
+                    <div class="text-center">
+                        <p class="text-sm">Harga Normal</p>
+                        <p class="text-xl font-bold line-through">Rp 253.500</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-sm">Harga Hari Ini</p>
+                        <p class="text-3xl font-bold">Rp 169.000</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-sm">Anda Hemat</p>
+                        <p class="text-xl font-bold text-secondary">Rp 84.500</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-8">
+                <p class="text-lg font-medium mb-2">Promo berakhir dalam:</p>
+                <div class="flex justify-center space-x-2" id="countdown-large">
+                    <div class="bg-white text-primary rounded px-3 py-2 text-center">
+                        <span id="hours-large">00</span> <span class="text-sm">Jam</span>
+                    </div>
+                    <div class="bg-white text-primary rounded px-3 py-2 text-center">
+                        <span id="minutes-large">00</span> <span class="text-sm">Menit</span>
+                    </div>
+                    <div class="bg-white text-primary rounded px-3 py-2 text-center">
+                        <span id="seconds-large">00</span> <span class="text-sm">Detik</span>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="https://tara.orderonline.id/skirtpants" class="inline-block bg-white text-primary hover:bg-accent hover:text-white font-bold py-4 px-12 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 mb-4">
+                PESAN SEKARANG <i class="fas fa-shopping-bag ml-2"></i>
+            </a>
+            <p class="text-sm opacity-80">*Stok terbatas. Pesanan akan diproses sesuai urutan pembelian.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold text-primary mb-2">Skirtpants</h3>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+                        <i class="fab fa-facebook text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+                        <i class="fab fa-tiktok text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p class="mt-2 text-sm">Harga yang tercantum sudah termasuk PPN. Gambar hanya sebagai ilustrasi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const midnight = new Date();
+            midnight.setHours(24, 0, 0, 0);
+            
+            const diff = midnight - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            
+            document.getElementById('hours-large').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes-large').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds-large').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Happy Customers Counter
+        let customers = 0;
+        const customerInterval = setInterval(() => {
+            customers += 23;
+            if (customers >= 5234) {
+                clearInterval(customerInterval);
+                document.getElementById('happy-customers').textContent = '5,234';
+            } else {
+                document.getElementById('happy-customers').textContent = customers.toLocaleString();
+            }
+        }, 100);
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('transform');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
